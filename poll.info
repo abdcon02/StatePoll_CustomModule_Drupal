@@ -1,0 +1,5 @@
+name = Poll
+description = Polls users on their favorite icecream and state of residence.
+package = Epicodus Examples
+core = 7.x
+files[] = poll.module

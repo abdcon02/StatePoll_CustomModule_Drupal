@@ -1,0 +1,17 @@
+<?php
+
+function poll_menu(){
+    $item = array();
+    $item['poll'] = array(
+        'title' => 'Ice Cream Poll',
+        'page callback' => 'ice_cream',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    )
+
+    return $item;
+}
+
+function ice_cream(){
+    return 'this works';
+}
